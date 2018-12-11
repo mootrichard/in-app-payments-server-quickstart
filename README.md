@@ -12,4 +12,4 @@ This is an example Heroku app that enables you to easily process payments with S
 * Go to the [Square Application Dashboard](https://connect.squareup.com/apps) and select your application.
 * Copy the **Personal Access Token** from the **Credentials** tab into the ACCESS_TOKEN field of the Heroku configuration page.
 * Click **Deploy app**
-* Copy `https://[Heroku app name].herokuapp.com` to: TODO instructions to copy in example app.
+* Copy `https://[Heroku app name].herokuapp.com` as your URL to POST to in your mobile application.
