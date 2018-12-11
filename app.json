@@ -1,0 +1,13 @@
+{
+  "name": "Square Mobile Backend Server",
+  "description": "An example Square Backed server for In-App Payments",
+  "env": {
+    "ACCESS_TOKEN": {
+      "description": "Your \"Access Token\" or \"Personal Access Token\" which can be found on your Square Application Dashboard [https://connect.squareup.com/apps/]. Update the \"Redirect URL\" in the \"OAuth\" tab to https://[Heroku app name].herokuapp.com/oauth/callback and click Save.",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "npm install"
+  }
+}
