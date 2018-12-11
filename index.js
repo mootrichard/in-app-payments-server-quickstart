@@ -21,7 +21,7 @@ const ordersApi = new OrdersApi();
 const locationsApi = new LocationsApi();
 
 
-app.post('/charge', async (request, response) => {
+app.post('/chargeForCookie', async (request, response) => {
   const requestBody = request.body;
   const locations = await locationsApi.listLocations();
   const order = await ordersApi.createOrder(locations.locations[0].id, {
